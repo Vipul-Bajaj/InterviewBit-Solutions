@@ -41,5 +41,5 @@ class Solution:
     # @param A : tuple of integers
     # @return an integer
     def findMin(self, A):
-        return A[get_minimum_from_sorted_rotated_array(A,len(A))]V
+        return A[get_minimum_from_sorted_rotated_array(A,len(A))]
 ```
