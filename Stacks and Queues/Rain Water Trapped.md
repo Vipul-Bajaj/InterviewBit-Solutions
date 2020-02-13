@@ -14,6 +14,7 @@ Output 1:
 Explaination 1: 
 <p>
 <img src="http://i.imgur.com/0qkUFco.png">
+    
 In this case, 6 units of rain water (blue section) are being trapped.
 </p>
 </p>
