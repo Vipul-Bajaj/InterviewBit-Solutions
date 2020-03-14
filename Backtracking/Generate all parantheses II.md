@@ -1,4 +1,4 @@
-<h1>Subset II</h1>
+<h1>Generate all parantheses II</h1>
 
 <p>
 Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses of length 2*n.
