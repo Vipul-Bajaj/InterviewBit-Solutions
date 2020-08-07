@@ -37,16 +37,13 @@ class Solution:
     # @param A : string
     # @return an integer
     def braces(self, A):
-        opr = []
-        braces = []
-        n = len(A)
-        for i in range(n):
-            if A[i] == "+" or A[i] == "-" or A[i] == "*" or A[i] == "/":
-                opr.append(A[i])
-            elif A[i] == "(":
-                braces.append(A[i])
-        
-        if len(braces)>len(opr):
-            return 1
-        return 0
+        stack = []
+        for i in range(len(A)):
+            if A[i] in '(+-/*':
+                stack.append(A[i])
+            elif A[i] == ')':
+                if stack.pop() == '(':
+                    return 1
+                stack.pop()
+        return 0   
 ```
