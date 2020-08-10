@@ -3,6 +3,7 @@
 <body>
 <h2>Arrays</h2>
 <p>
+    * [Add One To Number](./Arrays/Add One To Number.md)
     <li><a href="Add One To Number.md">Add One To Number.md</a></li>
     <li><a href="Anti Diagonals.md">Anti Diagonals.md</a></li>
     <li><a href="Balance Array.md">Balance Array.md</a></li>
