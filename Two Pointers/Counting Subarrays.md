@@ -14,8 +14,11 @@ Input Format:
 
     First argument is an integer array A of size N.
     Second argument is an integer B.
+    
 Output Format:
+
     Return an integer denoting the number of subarrays in A having sum less than B.
+    
 Example Input:
 
     Input 1:
